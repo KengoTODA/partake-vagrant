@@ -8,7 +8,6 @@ execute "install-play" do
     cwd node['play']['install_dir']
     command <<-EOH
     unzip play-#{node[:play][:version]}.zip
-    sudo ln -s /home/vagrant/play-#{node[:play][:version]}/play /usr/local/bin/play
     EOH
     action :nothing
 end
