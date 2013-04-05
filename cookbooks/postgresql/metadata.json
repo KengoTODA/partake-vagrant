@@ -17,7 +17,8 @@
     "oracle": ">= 6.0"
   },
   "dependencies": {
-    "openssl": ">= 0.0.0"
+    "openssl": ">= 0.0.0",
+    "apt-get-update": ">= 0.0.0"
   },
   "recommendations": {
   },
