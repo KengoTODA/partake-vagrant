@@ -1,3 +1,0 @@
-[submodule "cookbooks/play"]
-	path = cookbooks/play
-	url = git@github.com:jakedavis/chef-play.git
